@@ -9,9 +9,9 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:background="@drawable/header">
     
-    <ImageView
-        android:layout_width="76dp"
-        android:layout_height="76dp"
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="56dp"
+        android:layout_height="56dp"
         android:src="@drawable/user2"
         android:scaleType="centerCrop"
         android:contentDescription="@string/my_image"/>
